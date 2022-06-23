@@ -323,7 +323,7 @@ dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 clear
 echo -e "\E[44;1;37m    INSTALANDO PAINEL    \E[0m"
 echo ""
-echo -e "WEB GESTOR-SSH-AGOSTINHO" | figlet
+echo -e "WEB SSH-AGOSTINHO" | figlet
 echo -e "                              \033[1;31mBy @Igorhenri0407\033[1;36m"
 echo ""
 [[ $(grep -c "prohibit-password" /etc/ssh/sshd_config) != '0' ]] && {
@@ -360,7 +360,7 @@ tst_bkp
 clear
 sed -i "s;upload_max_filesize = 2M;upload_max_filesize = 256M;g" /etc/php/7.4/apache2/php.ini > /dev/null 2>&1
 sed -i "s;post_max_size = 8M;post_max_size = 256M;g" /etc/php/7.4/apache2/php.ini > /dev/null 2>&1
-echo -e "PAINELWEB GESTOR-SSH-AGOSTINHO" | figlet
+echo -e "PAINELWEB SSH-AGOSTINHO" | figlet
 echo -e "                              \033[1;31mBy @Igorhenri0407\033[1;36m"
 echo ""
 echo -e "\033[1;32mPAINEL INSTALADO COM SUCESSO!"
