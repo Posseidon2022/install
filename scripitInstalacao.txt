@@ -1,0 +1,1 @@
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Igorhenri0407/install/bad/ubuinst3.sh)
