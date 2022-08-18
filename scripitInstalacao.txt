@@ -1,1 +1,2 @@
 apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Posseidon2022/install/bad/ubuinst3.sh)
+apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/Posseidon2022/aiweb/bad/Instalador/ubuinst.sh)
